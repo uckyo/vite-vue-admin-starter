@@ -13,5 +13,13 @@ export default defineConfig({
         }),
         Components({
             resolvers: [ElementPlusResolver()],
-        }),],
+        }),
+    ],
+    resolve: {
+        alias: {
+            '@': '/src',
+            '@Components': '/src/components',
+            '@Assets': '/src/assets',
+        },
+    }
 })
