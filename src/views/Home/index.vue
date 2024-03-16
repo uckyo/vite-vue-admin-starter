@@ -1,8 +1,11 @@
 <template>
-  <router-view />
+  <div>
+    Home
+  </div>
 </template>
 
 <script setup lang="ts">
+
 </script>
 
 <style scoped>
