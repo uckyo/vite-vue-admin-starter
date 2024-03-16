@@ -1,6 +1,8 @@
 <template>
-  <div class="text-4xl font-bold underline">
-    Hello world!
+  <div class="text-3xl font-bold underline">
+    <el-button type="danger">
+      Hello world!1
+    </el-button>
   </div>
 </template>
 
