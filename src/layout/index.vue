@@ -18,7 +18,7 @@
 
 </script>
 
-<style scoped>
+<style lang="postcss" scoped>
 .el-aside {
   @apply bg-amber-100;
   width: var(--aside-width);
