@@ -29,6 +29,8 @@ declare module 'vue' {
     IEpFold: typeof import('~icons/ep/fold')['default']
     IIcBaselineArrowBackIos: typeof import('~icons/ic/baseline-arrow-back-ios')['default']
     IMdiFormatIndentDecrease: typeof import('~icons/mdi/format-indent-decrease')['default']
+    IMdiFullscreen: typeof import('~icons/mdi/fullscreen')['default']
+    IMdiFullscreenExit: typeof import('~icons/mdi/fullscreen-exit')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

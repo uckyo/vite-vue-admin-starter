@@ -1,5 +1,5 @@
 <template>
-  <el-menu default-active="2" class="!border-r-0">
+  <el-menu default-active="2" :collapse="MenuClient.isCollapsed.value" class="!border-r-0">
     <el-sub-menu index="1">
       <template #title>
         <el-icon><IEpAddLocation /></el-icon>
@@ -32,6 +32,8 @@
   </el-menu>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import MenuClient from "@/hooks/useMenu.ts";
+</script>
 
 <style scoped></style>
