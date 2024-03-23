@@ -39,7 +39,7 @@ export default defineConfig({
         // 自动注册图标组件
         // https://icon-sets.iconify.design/ep/
         IconsResolver({
-          enabledCollections: ["ep"]
+          enabledCollections: ["mdi", "ep"]
         }),
         // Auto register Element Plus components
         // 自动导入 Element Plus 组件

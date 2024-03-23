@@ -8,6 +8,8 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     ElAside: typeof import('element-plus/es')['ElAside']
+    ElBreadcrumb: typeof import('element-plus/es')['ElBreadcrumb']
+    ElBreadcrumbItem: typeof import('element-plus/es')['ElBreadcrumbItem']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElContainer: typeof import('element-plus/es')['ElContainer']
     ElHeader: typeof import('element-plus/es')['ElHeader']
@@ -23,7 +25,10 @@ declare module 'vue' {
     IEpApple: typeof import('~icons/ep/apple')['default']
     IEpCaretRight: typeof import('~icons/ep/caret-right')['default']
     IEpCircleCheckFilled: typeof import('~icons/ep/circle-check-filled')['default']
+    IEpExpand: typeof import('~icons/ep/expand')['default']
+    IEpFold: typeof import('~icons/ep/fold')['default']
     IIcBaselineArrowBackIos: typeof import('~icons/ic/baseline-arrow-back-ios')['default']
+    IMdiFormatIndentDecrease: typeof import('~icons/mdi/format-indent-decrease')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

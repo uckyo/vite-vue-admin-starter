@@ -1,12 +1,8 @@
 <template>
-  <el-container>
-    <el-aside>
-      Aside
-    </el-aside>
-    <el-container>
-      <el-header>
-        header
-      </el-header>
+  <el-container class="h-screen w-full font-sans">
+    <Aside />
+    <el-container direction="vertical">
+      <Header />
       <el-main>
         <router-view />
       </el-main>
@@ -15,22 +11,8 @@
 </template>
 
 <script lang="ts" setup>
-
+import Aside from "@/layout/aside/index.vue";
+import Header from "@/layout/header/index.vue";
 </script>
 
-<style lang="postcss" scoped>
-.el-aside {
-  @apply bg-amber-100;
-  width: var(--aside-width);
-}
-
-.el-header {
-  @apply bg-gray-50;
-  height: var(--header-height);
-}
-
-.el-main {
-  @apply bg-gray-200;
-  min-height: calc(100vh - var(--header-height));
-}
-</style>
+<style lang="postcss" scoped></style>

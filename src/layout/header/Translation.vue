@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <el-button type="primary">Primary</el-button>
-  </div>
+  <div>Translation</div>
 </template>
 
 <script setup lang="ts"></script>

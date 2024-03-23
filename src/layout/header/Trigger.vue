@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <el-button type="primary">Primary</el-button>
-  </div>
+  <el-icon size="24">
+    <i-mdi-format-indent-decrease />
+  </el-icon>
 </template>
 
 <script setup lang="ts"></script>

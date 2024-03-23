@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <el-button type="primary">Primary</el-button>
-  </div>
+  <div>Theme</div>
 </template>
 
 <script setup lang="ts"></script>
