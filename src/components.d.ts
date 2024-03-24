@@ -8,10 +8,14 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     ElAside: typeof import('element-plus/es')['ElAside']
+    ElAvatar: typeof import('element-plus/es')['ElAvatar']
     ElBreadcrumb: typeof import('element-plus/es')['ElBreadcrumb']
     ElBreadcrumbItem: typeof import('element-plus/es')['ElBreadcrumbItem']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElContainer: typeof import('element-plus/es')['ElContainer']
+    ElDropdown: typeof import('element-plus/es')['ElDropdown']
+    ElDropdownItem: typeof import('element-plus/es')['ElDropdownItem']
+    ElDropdownMenu: typeof import('element-plus/es')['ElDropdownMenu']
     ElHeader: typeof import('element-plus/es')['ElHeader']
     ElIcon: typeof import('element-plus/es')['ElIcon']
     ElMain: typeof import('element-plus/es')['ElMain']
@@ -31,6 +35,8 @@ declare module 'vue' {
     IMdiFormatIndentDecrease: typeof import('~icons/mdi/format-indent-decrease')['default']
     IMdiFullscreen: typeof import('~icons/mdi/fullscreen')['default']
     IMdiFullscreenExit: typeof import('~icons/mdi/fullscreen-exit')['default']
+    IMdiWeatherNight: typeof import('~icons/mdi/weather-night')['default']
+    IMdiWhiteBalanceSunny: typeof import('~icons/mdi/white-balance-sunny')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
