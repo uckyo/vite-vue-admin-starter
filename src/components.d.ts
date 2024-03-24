@@ -35,6 +35,7 @@ declare module 'vue' {
     IMdiFormatIndentDecrease: typeof import('~icons/mdi/format-indent-decrease')['default']
     IMdiFullscreen: typeof import('~icons/mdi/fullscreen')['default']
     IMdiFullscreenExit: typeof import('~icons/mdi/fullscreen-exit')['default']
+    IMdiGoogleTranslate: typeof import('~icons/mdi/google-translate')['default']
     IMdiWeatherNight: typeof import('~icons/mdi/weather-night')['default']
     IMdiWhiteBalanceSunny: typeof import('~icons/mdi/white-balance-sunny')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

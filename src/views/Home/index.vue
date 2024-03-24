@@ -1,9 +1,12 @@
 <template>
   <div>
-    <el-button type="primary">Primary</el-button>
+    <el-button type="primary">{{ t("message") }}</el-button>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
+</script>
 
 <style scoped></style>

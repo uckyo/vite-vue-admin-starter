@@ -1,11 +1,10 @@
 import { createApp } from "vue";
-import router from "./router";
-import "./style.css";
-import "element-plus/dist/index.css";
-import "element-plus/theme-chalk/dark/css-vars.css";
 import App from "./App.vue";
+import { setupPlugins } from "./plugins";
+import router from "./router";
+import "./style/global.css";
 
 const app = createApp(App);
-
+setupPlugins(app);
 app.use(router);
 app.mount("#app");
