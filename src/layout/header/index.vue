@@ -2,7 +2,7 @@
   <el-header class="!border-b border-base border-solid flex justify-between items-center">
     <Trigger />
     <Breadcrumb class="mr-auto ml-2" />
-    <div class="flex gap-4">
+    <div class="flex items-center gap-4">
       <Translation />
       <Fullscreen />
       <Theme />
