@@ -21,7 +21,7 @@ const { isFullScreen, fullScreen } = useFullScreen();
 
 <style lang="postcss" scoped>
 .fullscreen {
-  @apply cursor-pointer text-gray-500 hover:text-gray-800 duration-500;
+  @apply cursor-pointer dark:text-gray-50 dark:hover:text-gray-300 text-gray-500 hover:text-gray-800 duration-500;
 }
 
 @media screen and (max-width: 768px) {
